@@ -78,4 +78,7 @@ Railsgoat::Application.routes.draw do
   end
 
   root to: "sessions#new"
+
+  get "/rce", to: "rce#rce_simple"
+  get "/rce-marshal", to: "rce#rce_marshal"
 end
