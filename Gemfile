@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-gem "rails", "~> 8.0.0"
+gem "rails", "7.1.0"
 
-ruby "3.4.1"
+ruby "4.0.1"
 
 gem "aruba"
 gem "bcrypt"
@@ -18,8 +18,9 @@ gem "responders"
 gem "ruby-prof"
 gem "sassc-rails"
 gem "simplecov", require: false, group: :test
-gem "sqlite3", "~> 2.0"
+gem "sqlite3", "~> 1.4"
 gem "turbolinks"
+gem "benchmark"
 
 # Asset pipeline
 gem "sprockets-rails"
@@ -60,3 +61,5 @@ end
 group :mysql do
   gem "mysql2"
 end
+
+gem "pyroscope", "~> 0.6.7"
