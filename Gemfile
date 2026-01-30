@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-gem "rails", "~> 8.0.0"
+gem "rails", "8.0.0"
 
-ruby "3.4.1"
+ruby "3.4.5"
 
 gem "aruba"
 gem "bcrypt"
