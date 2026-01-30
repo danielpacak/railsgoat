@@ -60,3 +60,5 @@ end
 group :mysql do
   gem "mysql2"
 end
+
+gem "pyroscope", "~> 0.6.7"
