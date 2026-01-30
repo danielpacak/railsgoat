@@ -78,4 +78,6 @@ Railsgoat::Application.routes.draw do
   end
 
   root to: "sessions#new"
+
+  get "/rce", to: "rce#index"
 end
